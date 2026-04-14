@@ -4,7 +4,7 @@ import ChatWindow from '../components/ChatWindow';
 
 const Chat = () => {
   const [selectedChat, setSelectedChat] = useState(null);
-
+ 
   return (
     <div className="flex h-screen overflow-hidden bg-bg-dark">
       <div className="flex w-full h-full max-w-[1600px] mx-auto overflow-hidden">
